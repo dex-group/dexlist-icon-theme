@@ -1,4 +1,4 @@
-# The smallest possible Gatsby theme
+# DEX List's Gatsby theme: Icons
 
 ## Quick Start
 
@@ -6,8 +6,8 @@
 mkdir my-site
 cd my-site
 yarn init
-# install gatsby-theme-minimal and it's dependencies
-yarn add gatsby react react-dom gatsby-theme-minimal
+# install gatsby-theme-dexlist-icon and it's dependencies
+yarn add gatsby react react-dom gatsby-theme-dexlist-icon
 ```
 
 Then add the theme to your `gatsby-config.js`. We'll use the long form
@@ -17,7 +17,7 @@ here for education purposes.
 module.exports = {
   plugins: [
     {
-      resolve: "gatsby-theme-minimal",
+      resolve: "gatsby-theme-dexlist-icon",
       options: {},
     },
   ],
@@ -40,12 +40,6 @@ import React from "react"
 export default () => <div>My Site!</div>
 ```
 
-## Doing more with themes
+## How to use this theme
 
-You can use this as a place to start when developing themes. I
-generally suggest using [yarn
-workspaces](https://yarnpkg.com/lang/en/docs/workspaces/) like the
-[gatsby-theme-examples repo
-does](https://github.com/ChristopherBiscardi/gatsby-theme-examples),
-but using `yarn link` or `npm link` is a viable alternative if you're
-not familiar with workspaces.
+Install this theme as a plugin, now you can use your own data to run a icon inspiration site. Or you can shadowing this theme with your code to do whatever you want.

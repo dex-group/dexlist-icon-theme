@@ -1,14 +1,15 @@
 {
-  "name": "gatsby-starter-theme-workspace",
   "private": true,
+  "name": "dexlist-icon-theme",
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "yarn workspace example build"
+    "build": "yarn workspace site build",
+    "dev": "yarn workspace site develop"
   },
   "workspaces": [
-    "gatsby-theme-minimal",
-    "example"
+    "gatsby-theme-dexlist-icon",
+    "site"
   ]
 }

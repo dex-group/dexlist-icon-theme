@@ -1,3 +1,8 @@
 .cache
 public
 node_modules
+data
+.DS_Store
+.size-snapshot.json
+yarn-error.log
+lerna-debug.log
